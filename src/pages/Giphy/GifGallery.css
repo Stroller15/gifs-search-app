@@ -1,0 +1,85 @@
+.gif {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  border-radius: 0px;
+  outline: none;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font: inherit;
+  position: relative;
+  width: 870px;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.gif__image-container {
+  margin: 8px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  position: relative;
+  vertical-align: baseline;
+  position: relative;
+}
+.gif__image {
+  color: rgb(255, 255, 255);
+  border-radius: 8px;
+  height: 200px;
+  width: 200px;
+}
+
+@media only screen and (min-width: 614px) and (max-width: 844px) {
+  .gif {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: inherit;
+    position: relative;
+    width: 100%;
+    max-width: 614px;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+  .gif__image-container {
+    margin: 8px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    position: relative;
+    vertical-align: baseline;
+    position: relative;
+  }
+  .gif__image {
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    height: 188px;
+    width: 188px;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 613px) {
+  .gif {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: inherit;
+    position: relative;
+    width: 100%;
+    max-width: 321px;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+  .gif__image-container {
+    margin: 8px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    position: relative;
+    vertical-align: baseline;
+    position: relative;
+  }
+  .gif__image {
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    height: 144px;
+    width: 144px;
+  }
+} /*# sourceMappingURL=GifGallery.css.map */
