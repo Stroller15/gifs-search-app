@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #121212;
+  font-family: interface, "Helvetica Neue", helvetica, sans-serif;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.giphy-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  width: 847px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.error-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.error-icon {
+  font-size: 32px;
+  color: red;
+}
+
+.error-message {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  margin-left: 8px;
+}
+
+/* Media Query */
+
+@media only screen and (min-width: 614px) and (max-width: 844px) {
+  body {
+    width: 100%;
+  }
+
+  body::-webkit-scrollbar {
+    display: none;
+  }
+
+  .giphy-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 613px) {
+  body {
+    width: 100%;
+  }
+
+  body::-webkit-scrollbar {
+    display: none;
+  }
+
+  .giphy-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    max-width: 321px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+}
