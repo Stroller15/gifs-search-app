@@ -1,5 +1,15 @@
 # Gifs Search
 
+Problem statement
+Design & develop the frontend for a application to search GIFs
+
+Features
+The following are the most fundamental features of the app:
+1. The app should have a search for searching gifs
+2. Create a fluid layout
+3. The app should have infinite scrolling support
+
+
 ### Large device view
 ![image](https://github.com/Stroller15/setu-assignment/assets/84174011/1498602f-6f21-4208-a1d5-b2511e4e22cb)
 
