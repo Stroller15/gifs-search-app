@@ -6,6 +6,7 @@ import "./NavBar.css";
 const NavBar = ({ searchTerm, setSearchTerm, handleSubmit, handleClick }) => {
   return (
     <header className="navbar">
+      {/* Giphy logo */}
       <nav className="navbar__content">
         <div className="navbar__logo-container">
           <Svgs.GiphyLogo className="navbar__giphy-logo" />
@@ -18,6 +19,7 @@ const NavBar = ({ searchTerm, setSearchTerm, handleSubmit, handleClick }) => {
         />
       </nav>
 
+      {/* SearchBar component */}
       <SearchBar
         searchTerm={searchTerm}
         setSearchTerm={setSearchTerm}
